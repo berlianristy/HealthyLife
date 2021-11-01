@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyLife">
         <activity
+            android:name=".HealthyLifeAndroid6"
+            android:exported="true" />
+        <activity
+            android:name=".LogLunch"
+            android:exported="true" />
+        <activity
+            android:name=".LogDinner"
+            android:exported="true" />
+        <activity
+            android:name=".LogSnack"
+            android:exported="true" />
+        <activity
+            android:name=".LogBreakfast"
+            android:exported="true" />
+        <activity
             android:name=".forgotpass"
             android:exported="true" />
         <activity
