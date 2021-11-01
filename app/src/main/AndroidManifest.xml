@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyLife">
         <activity
+            android:name=".Progres"
+            android:exported="true" />
+        <activity
+            android:name=".RememberWater"
+            android:exported="true" />
+        <activity
+            android:name=".AddFood"
+            android:exported="true" />
+        <activity
+            android:name=".FoodCalori"
+            android:exported="true" />
+        <activity
             android:name=".HealthyLifeAndroid6"
             android:exported="true" />
         <activity
