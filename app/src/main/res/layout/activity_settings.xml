@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEFF4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="11dp"
+        android:layout_height="17dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/panah" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-91dp"
+        app:srcCompat="@drawable/menu" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/text" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/tambah" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/profil" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="335dp"
+        android:layout_height="192dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/alas" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="335dp"
+        android:layout_height="192dp"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/alas" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="140dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="239dp"
+        android:fontFamily="@font/tinos_bold"
+        android:text="Settings"
+        android:textColor="#665BAB"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="134dp"
+        android:background="@drawable/smile" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="111dp"
+        android:layout_height="31dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="139dp"
+        android:fontFamily="@font/tinos"
+        android:text="Personal"
+        android:textColor="#665BAB"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="134dp"
+        android:background="@drawable/pengaturan" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="139dp"
+        android:fontFamily="@font/tinos"
+        android:text="General"
+        android:textColor="#665BAB"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="125dp"
+        android:layout_height="27dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="87dp"
+        android:fontFamily="@font/tinos"
+        android:text="Personal Detail"
+        android:textColor="#665BAB"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="87dp"
+        android:fontFamily="@font/tinos"
+        android:text="Notification"
+        android:textColor="#665BAB"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="87dp"
+        android:layout_height="26dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="@font/tinos"
+        android:text="My Items"
+        android:textColor="#665BAB"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="@font/tinos"
+        android:text="Units"
+        android:textColor="#665BAB"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="11dp"
+        android:layout_height="17dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/panah" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="11dp"
+        android:layout_height="17dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/panah" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="11dp"
+        android:layout_height="17dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/panah" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="11dp"
+        android:layout_height="17dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/panah" />
+
+</RelativeLayout>

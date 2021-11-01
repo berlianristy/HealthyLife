@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HealthyLife/app/src/main/res/font/tinos.xml" value="0.2037037037037037" />
+        <entry key="..\:/HealthyLife/app/src/main/res/layout/activity_create_food.xml" value="0.4" />
+        <entry key="..\:/HealthyLife/app/src/main/res/layout/activity_myitems.xml" value="0.27445652173913043" />
+        <entry key="..\:/HealthyLife/app/src/main/res/layout/activity_profile.xml" value="0.27445652173913043" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/HealthyLife/app/src/main/res/layout/activity_forgotpass.xml" value="0.22" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/HealthyLife/app/src/main/res/layout/activity_healthylife_signin.xml" value="0.22" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/HealthyLife/app/src/main/res/layout/activity_healthylife_signup.xml" value="0.4466666666666667" />
